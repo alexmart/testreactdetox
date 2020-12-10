@@ -3,13 +3,13 @@
   "runnerConfig": "e2e/config.json",
   "configurations": {
     "ios.sim.debug": {
-      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/App.app",
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/testreactdetox.app",
       "build": "xcodebuild -workspace ios/testreactdetox.xcworkspace -scheme testreactdetox -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
       "type": "ios.simulator",
       "name": "iPhone 8"
     },
     "ios.sim.release": {
-      "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/App.app",
+      "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/testreactdetox.app",
       "build": "xcodebuild -workspace ios/testreactdetox.xcworkspace -scheme testreactdetox -configuration Release -sdk iphonesimulator -derivedDataPath ios/build",
       "type": "ios.simulator",
       "name": "iPhone 8"
